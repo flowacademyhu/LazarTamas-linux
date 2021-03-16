@@ -1,0 +1,95 @@
+Mar 16 09:00:12 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881612.9932] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Mar 16 09:00:12 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881612.9973] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Mar 16 09:00:12 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881612.9990] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.0003] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.0006] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.0007] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.0007] manager: Networking is enabled by state file
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.0008] dhcp-init: Using DHCP client 'internal'
+Mar 16 09:00:13 lazar-HP-ENVY dbus-daemon[3149]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=3150 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.0024] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.0025] settings: Loaded settings plugin: keyfile (internal)
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.0025] ifupdown: management mode: unmanaged
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <warn>  [1615881613.0028] ifupdown: interfaces file /etc/network/interfaces doesn't exist
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.0126] device (lo): carrier: link connected
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.0128] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.0131] device (wlo1): driver supports Access Point (AP) mode
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.0134] manager: (wlo1): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/2)
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.0154] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <warn>  [1615881613.9519] Error: failed to open /run/network/ifstate
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.9635] supplicant: wpa_supplicant running
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.9636] device (wlo1): supplicant interface state: init -> starting
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.9636] modem-manager: ModemManager available
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.9652] manager: (88:9F:6F:3E:D2:41): new Bluetooth device (/org/freedesktop/NetworkManager/Devices/3)
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.9656] device (88:9F:6F:3E:D2:41): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Mar 16 09:00:13 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881613.9665] device (88:9F:6F:3E:D2:41): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:00:14 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881614.0266] sup-iface[0x55635e906120,wlo1]: supports 4 scan SSIDs
+Mar 16 09:00:14 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881614.0293] device (wlo1): supplicant interface state: starting -> ready
+Mar 16 09:00:14 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881614.0296] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0385] policy: auto-activating connection 'ASUS_5G' (c27ea3e3-0426-4a5b-923e-df3cff3cfb8e)
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0394] device (wlo1): Activation: starting connection 'ASUS_5G' (c27ea3e3-0426-4a5b-923e-df3cff3cfb8e)
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0396] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0401] manager: NetworkManager state is now CONNECTING
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0410] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0414] device (wlo1): Activation: (wifi) access point 'ASUS_5G' has security, but secrets are required.
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0415] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0417] sup-iface[0x55635e906120,wlo1]: wps: type pbc start...
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0428] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0430] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0432] device (wlo1): Activation: (wifi) connection 'ASUS_5G' has security, and secrets exist.  No new secrets needed.
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0432] Config: added 'ssid' value 'ASUS_5G'
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0432] Config: added 'scan_ssid' value '1'
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0432] Config: added 'bgscan' value 'simple:30:-70:86400'
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0433] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0433] Config: added 'auth_alg' value 'OPEN'
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.0433] Config: added 'psk' value '<hidden>'
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.5152] device (wlo1): supplicant interface state: ready -> authenticating
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.5188] device (wlo1): supplicant interface state: authenticating -> associating
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.5313] device (wlo1): supplicant interface state: associating -> associated
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.5422] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.5659] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.5660] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "ASUS_5G"
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.5676] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:00:18 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881618.5682] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5858] dhcp4 (wlo1): option dhcp_lease_time      => '86400'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5859] dhcp4 (wlo1): option domain_name_servers  => '192.168.1.1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5859] dhcp4 (wlo1): option expiry               => '1615968020'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5859] dhcp4 (wlo1): option host_name            => 'lazar-HP-ENVY'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5859] dhcp4 (wlo1): option ip_address           => '192.168.1.24'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5859] dhcp4 (wlo1): option next_server          => '192.168.1.1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5860] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5860] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5860] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5860] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5860] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5860] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5861] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5861] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5861] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5861] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5861] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5861] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5861] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5862] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5862] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5862] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5862] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5862] dhcp4 (wlo1): option routers              => '192.168.1.1'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5862] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5862] dhcp4 (wlo1): option wpad                 => '#012'
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5863] dhcp4 (wlo1): state changed unknown -> bound
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5884] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5910] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5913] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5918] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5935] manager: NetworkManager state is now CONNECTED_SITE
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5936] policy: set 'ASUS_5G' (wlo1) as default for IPv4 routing and DNS
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5942] device (wlo1): Activation: successful, device activated.
+Mar 16 09:00:20 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881620.5951] manager: startup complete
+Mar 16 09:00:21 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881621.2822] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar 16 09:00:21 lazar-HP-ENVY whoopsie[5810]: [09:00:21] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 16 09:00:21 lazar-HP-ENVY whoopsie[5810]: [09:00:21] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 16 09:00:21 lazar-HP-ENVY whoopsie[5810]: [09:00:21] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 16 09:00:31 lazar-HP-ENVY systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 16 09:00:45 lazar-HP-ENVY NetworkManager[3150]: <info>  [1615881645.1298] agent-manager: agent[3cfd9e279e3677c6,:1.89/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Mar 16 09:00:46 lazar-HP-ENVY kernel: [   39.530151] audit: type=1107 audit(1615881646.893:58): pid=3149 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/NetworkManager" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.5" pid=9043 label="snap.snap-store.ubuntu-software" peer_pid=3150 peer_label="unconfined"
