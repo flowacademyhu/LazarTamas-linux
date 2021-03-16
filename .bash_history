@@ -1,37 +1,3 @@
-cd ..
-ls
-cd ufotrok/
-ls
-cd Flow/
-cd Jogok/
-chmod u-w Pelda/
-ls -l
-chmod u+w Pelda/
-ls -l
-cd Pelda/
-chmod u+x korte
-./korte 
-cd ..
-chmod ugo-x Pelda/
-ls -l
-cd Pelda/
-chmod ugo+x Pelda/
-ls -l
-cd ..
-mkdir atiranyitasok
-cd atiranyitasok/
-touch gyumolcsok
-ls
-cat gyumolcsok 
-cat
-nano gyumolcsok 
-cat gyumolcsok 
-cat > gyumolcsok 
-cat gyumolcsok 
-cat >> gyumolcsok 
-cat gyumolcsok 
-touch error
-ls
 ls /eznincs
 ls gyumolcsok 
 ls /eznincs 2> error 
@@ -1998,3 +1964,37 @@ git add .
 git commit 
 git push
 git status 
+ls
+mkdir szakaszzaro
+ls
+cd szakaszzaro/
+echo Hello > szakaszzaro_feladat
+ls
+cat szakaszzaro_feladat 
+mv szakaszzaro_feladat feladat
+ls
+cp feladat feladat2
+ls
+rm feladat2
+cat feladat 
+man grep
+grep NetworkManager var/log/syslog
+grep NetworkManager /var/log/syslog
+grep NetworkManager /var/log/syslog > feladat 
+cat feladat 
+cat ~/.bash_history
+echo "# LazarTamas-linux" >> README.md
+git init
+ls
+cp ~/.bash_history ./
+ls
+ls -a
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:flowacademyhu/LazarTamas-linux.git
+git push -u origin main
+~/.bash_history
+cat ~/.bash_history
+history
+cat ~/.bash_history
